@@ -4,7 +4,7 @@
   "description": "A wrapper for the Multichain JSON-RPC api that parses your input.",
   "main": "index.js",
   "scripts": {
-    "test": "./test/run"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
     "url": "https://github.com/scoin/multichain-node/issues"
   },
   "homepage": "https://github.com/scoin/multichain-node#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "dockerode": "^2.5.8"
+  }
 }
